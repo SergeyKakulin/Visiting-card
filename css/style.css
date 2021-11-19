@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background: #2C4A52;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+    }
+
+.container {
+    max-width: 750px;
+    min-height: 80vh;
+    background: linear-gradient(to right bottom, 
+    rgba(255, 255, 255, 0.5), 
+    rgba(255, 255, 255, 0.014));   
+    border-radius: 28px;
+    margin: auto;
+    padding-top: 30px;
+    }
+
+.icons {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    /* background: chocolate; */
+
+}
+
+a {
+    border-radius: 50%;
+}
+
+.top {
+    display: flex;
+    margin-bottom: 20px;
+    /* background: chocolate; */
+   
+}
+
+.mainPhoto {
+    width: 150px;
+    border-radius: 28px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    
+}
+
+.aboutMe {
+    width: 100%;
+    word-wrap: break-word;
+    position: relative;
+    max-width: 100%;
+    margin: 1px;
+    align-items: center;
+    font-family: "Slabo 27px";
+    
+}
+
+h1{
+    font-family: "Abril Fatface";
+    }
+
+
+    h3{
+        text-align: center;
+    }
+.png {
+    max-width: 100%;
+    align-items: center;
+    animation: fade .8s linear forwards;
+    padding: 5px;
+    }
+
+    .png:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+.mainPhoto:hover{
+    box-shadow:
+    1px 1px #537072,
+    2px 2px #537072,
+    3px 3px #537072,
+    4px 4px #537072,
+    5px 5px #537072,
+    6px 6px #537072,
+    7px 7px #537072;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+@font-face {
+    font-family: "Slabo 27px"; 
+    src: url("../fonts/Slabo27px-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+    @font-face {
+        font-family: "Abril Fatface"; 
+        src: url("../fonts/AbrilFatface-Regular.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+        } 
