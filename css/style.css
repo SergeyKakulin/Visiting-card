@@ -21,7 +21,8 @@ main {
     rgba(255, 255, 255, 0.4), 
     rgba(255, 255, 255, 0.01));
     border-radius: 28px;
-    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 20px;
     }
 
@@ -30,7 +31,8 @@ main {
     margin-bottom: 20px;
     margin-top: 20px;
     /* background: chocolate; */
-}
+    }
+
  .education {
     width: 100%;
     word-wrap: break-word;
@@ -127,6 +129,13 @@ a {
     
 }
 
+@media (max-width: 500px) {
+.top{
+    display: block;
+    text-align: center;
+}
+}
+
 .aboutMe {
     width: 100%;
     word-wrap: break-word;
@@ -136,7 +145,12 @@ a {
     align-items: center;
     font-family: "Slabo 27px";
     padding-left: 20px;
-    
+        
+}
+
+.lang {
+    width: 30px;
+    position:relative;
 }
 
 h1 {
@@ -156,6 +170,20 @@ h1 {
     padding-right: 7px;
     
     }
+
+    @media (max-width: 500px) {
+        .png {
+            padding-left: 2px;
+            padding-right: 2px;
+        }
+        }
+
+    @media (max-width: 700px) {
+            .png {
+                padding-left: 4px;
+                padding-right: 4px;
+            }
+            }
 
     .png:hover {
         -webkit-transform: scale(1.2);
