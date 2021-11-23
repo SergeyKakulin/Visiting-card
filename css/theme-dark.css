@@ -1,0 +1,52 @@
+main {
+    background: #1B4b5a;
+    }
+
+    h1{
+        color: #8e7970;
+    }
+.container {
+    background: linear-gradient(to right bottom, 
+    rgba(15, 31, 56, 0.4), 
+    rgba(15, 31, 56, 0.01));
+    }
+
+  td {
+      border: 2px solid #2C4A52;
+    }
+ 
+ .table1 {
+     border: 4px solid #2C4A52;
+ }
+
+ .mainPhoto {
+     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    
+}
+
+.mainPhoto:hover{
+    box-shadow:
+    1px 1px #537072,
+    2px 2px #537072,
+    3px 3px #537072,
+    4px 4px #537072,
+    5px 5px #537072,
+    6px 6px #537072,
+    7px 7px #537072;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+.theme {
+    background: #222222;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+
+}
+
+/* .changeTheme[data-theme="dark"] {
+    display: block;
+}
+
+.changeTheme[data-theme="light"] {
+    display: none;
+} */
