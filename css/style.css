@@ -26,7 +26,6 @@ main {
     display: flex;
     margin-bottom: 20px;
     margin-top: 20px;
-    /* background: chocolate; */
     }
 
  .education {
@@ -111,9 +110,6 @@ a {
 
 .top {
     display: flex;
-    /* margin-bottom: 20px; */
-    /* background: chocolate; */
-   
 }
 
 .mainPhoto {
@@ -141,7 +137,7 @@ a {
 }
 
 .lang {
-    width: 30px;
+    width: 35px;
     position:relative;
 }
 
@@ -198,15 +194,23 @@ h1 {
     } 
 
     .theme {
-        position: fixed;
+        position: relative;
         cursor: pointer;
-        top: 50%;
+        /* top: 50%;
         left: 10px;
-        transform: translateY(-50%);
+        transform: translateY(-50%); */
+        margin-left: 10px;
         padding: 10px;
         background: #ffffff;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(39,38,40,0.4);
+        align-self: flex-start;
+    }
+
+    .buttons{
+       display: flex;
+       width: fit-content;
+       margin: 0 auto;
     }
 
     .theme svg {
@@ -214,6 +218,6 @@ h1 {
     }
 
     .changeTheme {
-        width: 40px;
-        height: 40px;
+        width: 15px;
+        height: 15px;
     }
